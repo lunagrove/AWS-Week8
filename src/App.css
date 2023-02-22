@@ -36,3 +36,136 @@
     transform: rotate(360deg);
   }
 }
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+img {
+  width: 100;
+  margin: 0;
+}
+
+header {
+  width: 40%;
+  margin: auto;
+}
+
+.wrapper {
+  width: 40%;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+  justify-content: space-between;
+}
+
+label {
+  margin-bottom: 0;
+}
+
+input {
+  height: 40px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-color: grey;
+  font-size: 1.1em;
+  padding-left: 10px;
+}
+
+.email-text {
+  font-size: 1.1em;
+}
+
+.email, .username {
+  width: 400px;
+}
+
+.password {
+  width: 250px;
+}
+
+.image-circle {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.image-circle p {
+  width: 100px;
+  margin: auto;
+  text-align: center;
+}
+
+.container img {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+input[type="file"] {
+  padding-left: 0;
+}
+
+input::file-selector-button {
+  height: 40px;
+  width: 120px;
+  background-color: #500258;
+  color: white;
+  border: 1px solid gray;
+  font-size: 1em;
+}
+
+button {
+  margin-top: 30px;
+  height: 40px;
+  width: 80px;
+  background-color: #500258;
+  color: white;
+  border: 1px solid gray;
+  font-size: 1em;
+}
+
+button:hover {
+    background-color: rgba(237, 160, 229, 0.522);
+    color: black;
+  }
+
+.error-message {
+  color: red;
+  font-size: 1.2em;
+}
+
+.error-message2 {
+  color: green;
+  font-size: 1.2em;
+}
+
+.logged-out {
+  text-align: center;
+}
+
+footer {
+  width: 50%;
+  margin: auto;  
+  text-align: center;
+  margin-top: 50px;
+}
